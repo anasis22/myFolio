@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradientText{
+    background-image: linear-gradient(#00c9ff,#92fe9d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
