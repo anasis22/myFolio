@@ -1,10 +1,9 @@
 import React from "react";
 import { useData } from "../../contexts/DataContexts";
+import { HashLink as Link } from "react-router-hash-link";
 
 const MenuCategories = () => {
   const { isOpen } = useData();
-
-  console.log(isOpen);
 
   return (
     <div>
@@ -15,18 +14,19 @@ const MenuCategories = () => {
        flex flex-col items-center
        "
           >
-            <li className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
+            <Link to="#home" smooth className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
               Home
-            </li>
-            <li className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
+            </Link>
+            <Link to="#about" smooth className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
               About
-            </li>
-            <li className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
+            </Link>
+            {/* <li className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
               Protfolio
-            </li>
+            </li> */}
             <li className="mt-8 mb-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
               Contact
             </li>
+            <Link to="#about" className="text-white" >About</Link>
           </ul>
         </div>
       )}

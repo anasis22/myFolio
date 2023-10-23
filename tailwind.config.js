@@ -42,7 +42,35 @@ export default {
         menuIcon:{
           "0%": { transform: "translateX(0px)", opacity:"1" },
           "100%": { transform: "translateX(300px)", opacity:"0"  },
-        }
+        },
+        entryHello:{
+          "0%": { transform: "translateY(-100px)", opacity:"0" },
+          "100%": { transform: "translateY(0px)", opacity:"1"  },
+        },
+        entryAnas:{
+          "0%": { transform: "translateY(-100px)", opacity:"0" },
+          "100%": { transform: "translateY(0px)", opacity:"1"  },
+        },
+        entryTyping:{
+          "0%": { transform: "translateY(-100px)", opacity:"0" },
+          "100%": { transform: "translateY(0px)", opacity:"1"  },
+        },
+        entryNavbar:{
+          "0%": { transform: "translateY(-200px)", opacity:"0" },
+          "100%": { transform: "translateY(0px)", opacity:"1"  },
+        },
+        entryIcons:{
+          "0%": { transform: "translateY(-200px)", opacity:"0" },
+          "100%": { transform: "translateY(0px)", opacity:"1"  },
+        },
+        entryDownArrow:{
+          "0%": { transform: "translateY(-200px)", opacity:"0" },
+          "100%": { transform: "translateY(0px)", opacity:"1"  },
+        },
+        projectHover: {
+          "0%": { transform: "rotate( 0.0deg)" },
+          "100% ": { transform: "rotate(2.0deg)" },
+        },
 
 
 
@@ -52,13 +80,24 @@ export default {
         scrollDown: "scrollDown 4s ease infinite",
         menuCategOpen: "menuCategOpen .5s ease forwards",
         menuCategClose: "menuCategClose 1s ease forwards",
+        entryNavbar: "entryNavbar 3s ease forwards",
+        entryHello: "entryHello 2.5s ease forwards",
+        entryAnas: "entryAnas 2s ease forwards",
+        entryTyping: "entryTyping 1.5s ease forwards",
+        entryIcons: "entryIcons 1s ease forwards",
+        entryDownArrow: "entryDownArrow .5s ease forwards",
+        projectHover: "projectHover .3s ease-in-out forwards",
       },
       transformOrigin: {
         tOrigin: '70% 70%'
       },
       borderWidth: {
         bw: '0.5px'
+      },
+      padding: {
+        pad: '0.10rem'
       }
+
     },
   },
   plugins: [],

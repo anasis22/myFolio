@@ -13,9 +13,9 @@ const Home = () => {
 
 
   return (
-    <div
+    <div id="home"
       className="
-     bg-black w-screen h-3/5 flex items-center justify-center font-bold md:ml-8 mt-20
+     bg-black w-screen h-3/5 flex items-center justify-center font-bold md:ml-8 mt-52
     "
     >
       <section
@@ -23,7 +23,7 @@ const Home = () => {
          w-4/5 md:w-3/4 h-fit flex items-start justify-center text-white flex-col
         "
       >
-        <section className="flex">
+        <section className="flex animate-entryHello">
           <h1
             className="
             text-4xl md:text-6xl mt-4 md:mt-6 text-baseColor 
@@ -38,7 +38,7 @@ const Home = () => {
 
         <h1
           className="
-          text-4xl md:text-6xl mt-4 md:mt-6
+          text-4xl md:text-6xl mt-4 md:mt-6 animate-entryAnas
         "
         >
           I'm{" "}
@@ -48,19 +48,19 @@ const Home = () => {
           "
           >
             {info.firstName}
-          </span>
+          </span><span className="text-4xl"> ,</span>
         </h1>
         <TypeAnimation
-          className="text-baseColor h-32 text-4xl md:text-6xl mt-4 md:mt-6 "
+          className="text-baseColor h-32 text-4xl md:text-6xl mt-4 md:mt-6 animate-entryTyping"
           sequence={["Web Developer.", 1000, "Front End Developer.", 1000]}
           repeat={Infinity}
           speed={10}
           deletionSpeed={40}
         />
-        <section className=" flex">
-          <a target="_blank" aria-hidden="true" href={links.gmail}><AiFillMail className="text-gray text-2xl cursor-pointer" /></a>
-          <a target="_blank" aria-hidden="true" href={links.linkedin}><AiFillLinkedin className="text-gray text-2xl ml-4 cursor-pointer" /></a>
-          <a target="_blank" aria-hidden="true" href={links.github}><AiFillGithub className="text-gray text-2xl ml-4 cursor-pointer" /></a>
+        <section className=" flex animate-entryIcons">
+          <a target="_blank" aria-hidden="true" href={links.gmail}><AiFillMail className="text-gray text-3xl cursor-pointer" /></a>
+          <a target="_blank" aria-hidden="true" href={links.linkedin}><AiFillLinkedin className="text-gray text-3xl ml-4 cursor-pointer" /></a>
+          <a target="_blank" aria-hidden="true" href={links.github}><AiFillGithub className="text-gray text-3xl ml-4 cursor-pointer" /></a>
         </section>
       </section>
     </div>

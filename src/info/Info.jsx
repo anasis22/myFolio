@@ -6,12 +6,13 @@ import jsLogo from "../assets/images/js.png"
 import reactLogo from "../assets/images/react.png"
 import tailwindLogo from "../assets/images/tailwind.svg"
 import reduxLogo from "../assets/images/redux.svg"
-import framerMotionLogo from "../assets/images/framerMotion.png"
+import framerMotionLogo from "../assets/images/framerMotion1.png"
 import viteLogo from "../assets/images/vite.svg"
 import firebaseLogo from "../assets/images/firebase.svg"
 import gitLogo from "../assets/images/git.svg"
 import figmaLogo from "../assets/images/figma.svg"
-import { useState } from "react";
+import template from "../assets/images/temp.png"
+
 
 const icons = [<AiFillMail />, <AiFillLinkedin />, <AiFillGithub />];
 export const info = {
@@ -49,6 +50,7 @@ export const info = {
   firebase : firebaseLogo,
   git : gitLogo,
   figma : figmaLogo,
+  template : template
 };
 
 

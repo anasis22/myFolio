@@ -1,0 +1,81 @@
+import React from "react";
+import { info } from "../info/Info";
+
+const Projects = () => {
+  return (
+    <div className="w-screen bg-black h-fit flex flex-col items-center justify-center md:p-12">
+        <h1 className="text-gray font-bold text-3xl tracking-wide mt-12 md:mt-0">PROJECTS</h1>
+      <section className="w-4/5 md:w-3/4 mt-10 md:p-8 bord flex flex-col md:flex-row items-center justify-center ">
+        <section className="w-full md:w-2/5 rounded-md bg-[#1F1F1F] hover:animate-projectHover hover:origin-[70%_70%]">
+          <img className="" src={info.template} alt="template" />
+          <section className="p-6 text-white">
+            <h3 className="text-2xl font-semibold tracking-wide">
+              PROJECT ONE
+            </h3>
+            <section className="mt-4 flex items-start">
+              <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a href="">Live</a>
+              </button>
+              <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a href="">Code</a>
+              </button>
+            </section>
+          </section>
+        </section>
+        <section className="w-full md:w-2/5 mt-12 md:mt-0 md:ml-20 rounded-md bg-[#1F1F1F] hover:animate-projectHover hover:origin-[70%_70%]">
+          <img className="" src={info.template} alt="template" />
+          <section className="p-6 text-white">
+            <h3 className="text-2xl font-semibold tracking-wide">
+              PROJECT ONE
+            </h3>
+            <section className="mt-4 flex items-start">
+              <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a href="">Live</a>
+              </button>
+              <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a href="">Code</a>
+              </button>
+            </section>
+          </section>
+        </section>
+      </section>
+      {/* Second section */}
+      <section className="w-4/5 md:w-3/4 md:p-8 bord flex flex-col md:flex-row items-center justify-center ">
+        <section className="w-full md:w-2/5 mt-12 md:mt-0 rounded-md bg-[#1F1F1F] hover:animate-projectHover hover:origin-[70%_70%]">
+          <img className="" src={info.template} alt="template" />
+          <section className="p-6 text-white">
+            <h3 className="text-2xl font-semibold tracking-wide">
+              PROJECT ONE
+            </h3>
+            <section className="mt-4 flex items-start">
+              <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a href="">Live</a>
+              </button>
+              <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a href="">Code</a>
+              </button>
+            </section>
+          </section>
+        </section>
+        <section className="w-full md:w-2/5 mt-12 md:mt-0 md:ml-20 rounded-md bg-[#1F1F1F] hover:animate-projectHover hover:origin-[70%_70%]">
+          <img className="" src={info.template} alt="template" />
+          <section className="p-6 text-white">
+            <h3 className="text-2xl font-semibold tracking-wide">
+              PROJECT ONE
+            </h3>
+            <section className="mt-4 flex items-start">
+              <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a href="">Live</a>
+              </button>
+              <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a href="">Code</a>
+              </button>
+            </section>
+          </section>
+        </section>
+      </section>
+    </div>
+  );
+};
+
+export default Projects;
