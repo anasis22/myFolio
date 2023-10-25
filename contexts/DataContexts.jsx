@@ -15,7 +15,7 @@ export const DataProvider = ({ children }) => {
 
   const value = {
     isOpen,
-    toggleMenu
+    toggleMenu,
   };
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;

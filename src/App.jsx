@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import ScrollArrow from "./components/ScrollArrow";
@@ -7,12 +7,15 @@ import Education from "./components/Education";
 import MenuBar from "./components/MenuBar";
 import { DataProvider } from "../contexts/DataContexts";
 import TechStacks from "./components/TechStacks";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Projects from "./components/Projects";
+import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
+
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <div
         className="
     bg-black overflow-hidden
@@ -27,9 +30,11 @@ const App = () => {
           <Education />
           <TechStacks />
           <Projects />
+          <ContactForm />
+          <Footer />
         </DataProvider>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 };
 

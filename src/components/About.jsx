@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import { info } from "../info/Info";
 import { motion,useScroll, useTransform } from "framer-motion";
+import {BsFillArrowUpCircleFill} from 'react-icons/bs'
+import { HashLink as Link } from "react-router-hash-link";
+
 
 const About = () => {
 
@@ -10,8 +13,7 @@ const About = () => {
     offset : ["0 1","0.8 1"]
   })
 
-const scaleProgress = useTransform(scrollYProgress,[0 , 1] , [0.5, 1])
-
+  const scaleProgress = useTransform(scrollYProgress,[0 , 1] , [0.5, 1])
 
   return (
     <motion.div id="about" style={{scale: scaleProgress , opacity: scrollYProgress}} ref={ref} className="w-screen h-fit bg-black flex flex-col items-center justify-center md:p-12 mt-36 ">
@@ -22,6 +24,7 @@ const scaleProgress = useTransform(scrollYProgress,[0 , 1] , [0.5, 1])
         <p className="text-white font-extralight md:pr-8 md:pl-8 text-md md:text-md mt-10 tracking-wider md:tracking-widest">{info.bio2}</p>
         <p className="text-white font-extralight md:pr-8 md:pl-8 text-md md:text-md mt-10 tracking-wider md:tracking-widest">{info.bio3}</p>
       </div>
+      <Link to="#home" smooth><BsFillArrowUpCircleFill className='text-3xl md:text-5xl z-10 cursor-pointer fixed bottom-5 md:bottom-10 right-5 md:right-20 text-baseColor'/></Link>
     </motion.div>
   );
 };
