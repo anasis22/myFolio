@@ -13,9 +13,15 @@ export const DataProvider = ({ children }) => {
     setIsOpen(!isOpen)
   }
 
+  const loadAnasPage = () => {
+    const reload = window.location.reload(false)
+    return reload
+  }
+
   const value = {
     isOpen,
     toggleMenu,
+    loadAnasPage,
   };
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;

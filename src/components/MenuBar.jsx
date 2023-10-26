@@ -6,14 +6,15 @@ import { HashLink as Link } from "react-router-hash-link";
 import { info } from "../info/Info";
 
 const MenuBar = () => {
-  const { isOpen, toggleMenu } = useData();
+
+  const { isOpen, toggleMenu , loadAnasPage } = useData();
   return (
     <nav
       className="
       md:hidden 
     w-screen bg-black text-gray flex items-center justify-end h-20 pr-8 animate-entryNavbar fixed right-0 z-10"
     >
-      <img src={info.logo} alt="logo" className="w-12 absolute left-4 top-3" />
+      <img src={info.logo} alt="logo" onClick={loadAnasPage} className="w-12 absolute left-4 top-3 cursor-pointer" />
       <CiMenuFries
         className={`text-2xl cursor-pointer hover:text-baseColor ${
           isOpen && "animate-menuCategClose"
