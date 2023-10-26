@@ -13,7 +13,7 @@ const MenuBar = () => {
       md:hidden 
     w-screen bg-black text-gray flex items-center justify-end h-20 pr-8 animate-entryNavbar fixed right-0 z-10"
     >
-      <img src={info.logo} alt="logo" className="w-12 absolute left-3 top-3" />
+      <img src={info.logo} alt="logo" className="w-12 absolute left-4 top-3" />
       <CiMenuFries
         className={`text-2xl cursor-pointer hover:text-baseColor ${
           isOpen && "animate-menuCategClose"
