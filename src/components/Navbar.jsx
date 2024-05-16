@@ -21,7 +21,7 @@ const Navbar = () => {
       >
         <Link to="#home" smooth className="ml-10 tracking-wider text-xl cursor-pointer hover:text-baseColor active:text-white">Home</Link>
         <Link to="#about" smooth className="ml-10 tracking-wider text-xl cursor-pointer hover:text-baseColor active:text-white">About</Link>
-        <Link to="#techSatck" smooth className="ml-10 tracking-wider text-xl cursor-pointer hover:text-baseColor active:text-white">Protfolio</Link>
+        <Link to="#techSatck" smooth className="ml-10 tracking-wider text-xl cursor-pointer hover:text-baseColor active:text-white">Portfolio</Link>
         <Link to="#contact" smooth className="ml-10 tracking-wider text-xl cursor-pointer hover:text-baseColor active:text-white">Contact</Link>
       </ul>
     </nav>
