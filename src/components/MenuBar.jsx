@@ -46,7 +46,7 @@ const MenuBar = () => {
                 About
               </Link>
               <Link to="#techSatck" smooth  className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
-                Protfolio
+                Portfolio
               </Link>
               <Link to="#contact" smooth className="mt-8 mb-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
                 Contact
