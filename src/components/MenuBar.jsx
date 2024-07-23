@@ -6,15 +6,19 @@ import { HashLink as Link } from "react-router-hash-link";
 import { info } from "../info/Info";
 
 const MenuBar = () => {
-
-  const { isOpen, toggleMenu , loadAnasPage } = useData();
+  const { isOpen, toggleMenu, loadAnasPage } = useData();
   return (
     <nav
       className="
       md:hidden 
     w-screen bg-black text-gray flex items-center justify-end h-20 pr-8 animate-entryNavbar fixed right-0 z-10"
     >
-      <img src={info.logo} alt="logo" onClick={loadAnasPage} className="w-12 absolute left-4 top-3 cursor-pointer" />
+      <img
+        src={info.logo}
+        alt="logo"
+        onClick={loadAnasPage}
+        className="w-12 absolute left-4 top-3 cursor-pointer"
+      />
       <CiMenuFries
         className={`text-2xl cursor-pointer hover:text-baseColor ${
           isOpen && "animate-menuCategClose"
@@ -39,16 +43,32 @@ const MenuBar = () => {
        flex flex-col items-center
        "
             >
-              <Link to="#home" smooth className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
+              <Link
+                to="#home"
+                smooth
+                className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white"
+              >
                 Home
               </Link>
-              <Link to="#about" smooth className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
+              <Link
+                to="#about"
+                smooth
+                className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white"
+              >
                 About
               </Link>
-              <Link to="#techSatck" smooth  className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
+              <Link
+                to="#techSatck"
+                smooth
+                className="mt-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white"
+              >
                 Portfolio
               </Link>
-              <Link to="#contact" smooth className="mt-8 mb-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white">
+              <Link
+                to="#contact"
+                smooth
+                className="mt-8 mb-8 tracking-wider text-xl cursor-pointer text-gray hover:text-baseColor active:text-white"
+              >
                 Contact
               </Link>
             </ul>

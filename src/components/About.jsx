@@ -4,7 +4,6 @@ import { motion,useScroll, useTransform } from "framer-motion";
 import {BsFillArrowUpCircleFill} from 'react-icons/bs'
 import { HashLink as Link } from "react-router-hash-link";
 
-
 const About = () => {
 
   const ref = useRef(null)

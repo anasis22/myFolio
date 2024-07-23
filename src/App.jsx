@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import ScrollArrow from "./components/ScrollArrow";
@@ -12,14 +12,13 @@ import Projects from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 
-
 const App = () => {
   return (
     <Router>
       <div
         className="
     bg-black overflow-hidden
-    "
+     "
       >
         <DataProvider>
           <Navbar />
