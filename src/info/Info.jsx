@@ -14,6 +14,7 @@ import figmaLogo from "../assets/images/figma.svg"
 import template from "../assets/images/temp.png"
 import logo from "../assets/images/logo.png"
 import nextLogo from "../assets/images/nextjs.svg"
+import pythonLogo from "../assets/images/python.svg"
 
 
 const icons = [<AiFillMail />, <AiFillLinkedin />, <AiFillGithub />];
@@ -53,6 +54,7 @@ export const info = {
   git : gitLogo,
   figma : figmaLogo,
   nextjs : nextLogo,
+  python : pythonLogo,
   template : template,
   logo : logo,
 };
