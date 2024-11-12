@@ -47,25 +47,27 @@ const Projects = () => {
             </section>
           </section>
         </section>
-        <section className="p-6 text-white">
+        <section className="w-full md:w-2/5 rounded-md bg-[#1F1F1F] hover:animate-projectHover hover:origin-[70%_70%]">
           <img className="" src={info.template} alt="template" />
-          <h3 className="text-xl md:2xl text-[#EBECF0] font-semibold tracking-wider">
-            Grogin Grocery
-          </h3>
-          <section className="mt-4 flex items-start">
-            <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-              <a target="_blank" href="https://talrop-grogin.netlify.app/">
-                Live
-              </a>
-            </button>
-            <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-              <a
-                target="_blank"
-                href="https://github.com/anasis22/talrop-grogin"
-              >
-                Code
-              </a>
-            </button>
+          <section className="p-6 text-white">
+            <h3 className="text-xl md:2xl text-[#EBECF0] font-semibold tracking-wider">
+              Grogin Grocery
+            </h3>
+            <section className="mt-4 flex items-start">
+              <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a target="_blank" href="https://talrop-grogin.netlify.app/">
+                  Live
+                </a>
+              </button>
+              <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a
+                  target="_blank"
+                  href="https://github.com/anasis22/talrop-grogin"
+                >
+                  Code
+                </a>
+              </button>
+            </section>
           </section>
         </section>
       </section>
