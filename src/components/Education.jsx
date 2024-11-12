@@ -34,18 +34,18 @@ const Education = () => {
             Web Developer Intern
           </h2>
           <p className="text-lg text-[#6c757d] font-normal mt-6">
-            Exposys Data Labs
+            Innobyte Services
           </p>
-          <p className="text-lg text-[#6c757d] font-normal mt-6">07/2023 - 09/2023</p>
+          <p className="text-lg text-[#6c757d] font-normal mt-6">01/2024 - 03/2024</p>
         </div>
         <div className="mt-5">
           <h2 className="text-2xl text-white font-semibold mt-6">
             Web Developer Intern
           </h2>
           <p className="text-lg text-[#6c757d] font-normal mt-6">
-            Innobyte Services
+            Exposys Data Labs
           </p>
-          <p className="text-lg text-[#6c757d] font-normal mt-6">01/2024 - 03/2024</p>
+          <p className="text-lg text-[#6c757d] font-normal mt-6">07/2023 - 09/2023</p>
         </div>
         <div className="mt-14">
           <h1 className="text-gray font-bold text-3xl tracking-wide">
