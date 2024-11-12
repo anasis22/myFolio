@@ -163,14 +163,14 @@ const Projects = () => {
           <img className="" src={info.template} alt="template" />
           <section className="p-6 text-white">
             <h3 className="text-xl md:2xl text-[#EBECF0] font-semibold tracking-wider">
-              BMI CALCULATOR
+              TASK TRACKER
             </h3>
             <section className="mt-4 flex items-start">
               <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-                <a target="_blank" href="https://anasis22.github.io/bmi-calc/">Live</a>
+                <a target="_blank" href="https://anasis22.github.io/Task-tracker/">Live</a>
               </button>
               <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-                <a target="_blank" href="https://github.com/anasis22/bmi-calc">Code</a>
+                <a target="_blank" href="https://github.com/anasis22/Task-tracker">Code</a>
               </button>
             </section>
           </section>
