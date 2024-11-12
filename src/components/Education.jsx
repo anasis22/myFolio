@@ -21,25 +21,25 @@ const Education = () => {
           <h1 className="text-gray font-bold text-3xl tracking-wide">
             Experience
           </h1>
-          <h2 className="text-2xl text-white font-semibold mt-8">
+          <h2 className="text-2xl text-white font-semibold mt-6">
             Web Developer Intern
           </h2>
-          <p className="text-lg text-[#6c757d] font-normal mt-8">
+          <p className="text-lg text-[#6c757d] font-normal mt-6">
             Talrop, Kerala
           </p>
-          <p className="text-lg text-[#6c757d] font-normal mt-8">Present</p>
+          <p className="text-lg text-[#6c757d] font-normal mt-6">06/2024 - Present</p>
         </div>
-        <div className="mt-6">
+        <div className="mt-12">
           <h1 className="text-gray font-bold text-3xl tracking-wide">
             Education
           </h1>
-          <h2 className="text-2xl text-white font-semibold mt-8">
+          <h2 className="text-2xl text-white font-semibold mt-6">
             BE, Electronics and Communication Engineering
           </h2>
-          <p className="text-lg text-[#6c757d] font-normal mt-8">
+          <p className="text-lg text-[#6c757d] font-normal mt-6">
             Adhiyamaan College of Engineering
           </p>
-          <p className="text-lg text-[#6c757d] font-normal mt-8">2020 - 2024</p>
+          <p className="text-lg text-[#6c757d] font-normal mt-6">2020 - 2024</p>
         </div>
       </div>
     </motion.div>
