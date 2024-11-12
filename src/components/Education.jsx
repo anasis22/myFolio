@@ -34,6 +34,15 @@ const Education = () => {
             Web Developer Intern
           </h2>
           <p className="text-lg text-[#6c757d] font-normal mt-6">
+            Exposys Data Labs
+          </p>
+          <p className="text-lg text-[#6c757d] font-normal mt-6">07/2023 - 09/2023</p>
+        </div>
+        <div className="mt-6">
+          <h2 className="text-2xl text-white font-semibold mt-6">
+            Web Developer Intern
+          </h2>
+          <p className="text-lg text-[#6c757d] font-normal mt-6">
             Innobyte Services
           </p>
           <p className="text-lg text-[#6c757d] font-normal mt-6">01/2024 - 03/2024</p>
