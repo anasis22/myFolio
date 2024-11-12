@@ -39,7 +39,7 @@ const Projects = () => {
           <img className="" src={info.template} alt="template" />
           <section className="p-6 text-white">
             <h3 className="text-xl md:2xl text-[#EBECF0] font-semibold tracking-wider">
-              Grogin
+              GROGIN GROCERY
             </h3>
             <section className="mt-4 flex items-start">
               <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
@@ -58,14 +58,14 @@ const Projects = () => {
           <img className="" src={info.template} alt="template" />
           <section className="p-6 text-white">
             <h3 className="text-xl md:2xl text-[#EBECF0] font-semibold tracking-wider">
-              Grogin
+              DELTA
             </h3>
             <section className="mt-4 flex items-start">
               <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-                <a target="_blank" href="https://talrop-grogin.netlify.app/">Live</a>
+                <a target="_blank" href="https://delta-talrop.netlify.app/">Live</a>
               </button>
               <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-                <a target="_blank" href="https://github.com/anasis22/talrop-grogin">Code</a>
+                <a target="_blank" href="https://github.com/anasis22/delta-talrop">Code</a>
               </button>
             </section>
           </section>
