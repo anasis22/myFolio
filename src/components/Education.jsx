@@ -29,7 +29,7 @@ const Education = () => {
           </p>
           <p className="text-lg text-[#6c757d] font-normal mt-6">06/2024 - Present</p>
         </div>
-        <div className="mt-8">
+        <div className="mt-6">
           <h2 className="text-2xl text-white font-semibold mt-6">
             Web Developer Intern
           </h2>
