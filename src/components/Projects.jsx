@@ -27,10 +27,10 @@ const Projects = () => {
             </h3>
             <section className="mt-4 flex items-start">
               <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-                <a target="_blank" href="https://github.com/anasis22/talrop-euphoria">Live</a>
+                <a target="_blank" href="https://talrop-euphoria.netlify.app/">Live</a>
               </button>
               <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-                <a target="_blank" href="https://github.com/anasis22/Tesla-UI">Code</a>
+                <a target="_blank" href="https://github.com/anasis22/talrop-euphoria">Code</a>
               </button>
             </section>
           </section>
