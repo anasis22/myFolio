@@ -157,6 +157,25 @@ const Projects = () => {
           </section>
         </section>
       </section>
+      {/* fifth section */}
+      <section className="w-4/5 md:w-3/4 md:p-8 bord flex flex-col md:flex-row items-center justify-center ">
+        <section className="w-full md:w-2/5 mt-12 md:mt-0 md:ml-20 rounded-md bg-[#1F1F1F] hover:animate-projectHover hover:origin-[70%_70%]">
+          <img className="" src={info.template} alt="template" />
+          <section className="p-6 text-white">
+            <h3 className="text-xl md:2xl text-[#EBECF0] font-semibold tracking-wider">
+              BMI CALCULATOR
+            </h3>
+            <section className="mt-4 flex items-start">
+              <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a target="_blank" href="https://anasis22.github.io/bmi-calc/">Live</a>
+              </button>
+              <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
+                <a target="_blank" href="https://github.com/anasis22/bmi-calc">Code</a>
+              </button>
+            </section>
+          </section>
+        </section>
+      </section>
     </motion.div>
   );
 };
