@@ -23,11 +23,11 @@ const Projects = () => {
           <img className="" src={info.template} alt="template" />
           <section className="p-6 text-white">
             <h3 className="text-xl md:2xl text-[#EBECF0] font-semibold tracking-wider">
-              TESLA UI CLONE
+              EUPHORIA
             </h3>
             <section className="mt-4 flex items-start">
               <button className="rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
-                <a target="_blank" href="https://anasis22.github.io/Tesla-UI/">Live</a>
+                <a target="_blank" href="https://github.com/anasis22/talrop-euphoria">Live</a>
               </button>
               <button className="ml-10 rounded-md border-2 border-[#70F6C0] hover:border-white pt-pad pb-pad pl-3 pr-3 hover:text-baseColor transition-all">
                 <a target="_blank" href="https://github.com/anasis22/Tesla-UI">Code</a>
