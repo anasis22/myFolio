@@ -29,6 +29,18 @@ const Education = () => {
           </p>
           <p className="text-lg text-[#6c757d] font-normal mt-8">2020 - 2024</p>
         </div>
+        <div>
+          <h1 className="text-gray font-bold text-3xl tracking-wide">
+            Education
+          </h1>
+          <h2 className="text-2xl text-white font-semibold mt-8">
+            BE, Electronics and Communication Engineering
+          </h2>
+          <p className="text-lg text-[#6c757d] font-normal mt-8">
+            Adhiyamaan College of Engineering
+          </p>
+          <p className="text-lg text-[#6c757d] font-normal mt-8">2020 - 2024</p>
+        </div>
       </div>
     </motion.div>
   );
