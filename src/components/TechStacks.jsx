@@ -22,6 +22,7 @@ const scaleProgress = useTransform(scrollYProgress,[0 , 1] , [0.5, 1])
             <img className='mt-8 w-8 md:w-16 ml-4 md:ml-8' src={info.react} alt="reactLogo" />
             <img className='mt-8 w-8 md:w-16 ml-4 md:ml-8' src={info.redux} alt="reduxLogo" />
             <img className='mt-8 w-8 md:w-16 ml-4 md:ml-8' src={info.tailwind} alt="tailwindLogo" />
+            <img className='mt-8 w-8 md:w-16 ml-4 md:ml-8' src={info.nextjs} alt="tailwindLogo" />
             <img className='mt-8 w-8 md:w-16 ml-4 md:ml-8' src={info.framerMotion} alt="framerMotionLogo" />
             <img className='mt-8 w-8 md:w-16 ml-4 md:ml-8' src={info.vite} alt="viteLogo" />
             <img className='mt-8 w-8 md:w-16 ml-4 md:ml-8' src={info.firebase} alt="firebaseLogo" />

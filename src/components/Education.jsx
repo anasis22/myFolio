@@ -29,7 +29,7 @@ const Education = () => {
           </p>
           <p className="text-lg text-[#6c757d] font-normal mt-6">06/2024 - Present</p>
         </div>
-        <div className="mt-5">
+        <div className="mt-4">
           <h2 className="text-2xl text-white font-semibold mt-6">
             Web Developer Intern
           </h2>
@@ -38,7 +38,7 @@ const Education = () => {
           </p>
           <p className="text-lg text-[#6c757d] font-normal mt-6">01/2024 - 03/2024</p>
         </div>
-        <div className="mt-5">
+        <div className="mt-4">
           <h2 className="text-2xl text-white font-semibold mt-6">
             Web Developer Intern
           </h2>
@@ -47,7 +47,7 @@ const Education = () => {
           </p>
           <p className="text-lg text-[#6c757d] font-normal mt-6">07/2023 - 09/2023</p>
         </div>
-        <div className="mt-14">
+        <div className="mt-12">
           <h1 className="text-gray font-bold text-3xl tracking-wide">
             Education
           </h1>

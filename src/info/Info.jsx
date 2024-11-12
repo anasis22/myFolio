@@ -13,6 +13,7 @@ import gitLogo from "../assets/images/git.svg"
 import figmaLogo from "../assets/images/figma.svg"
 import template from "../assets/images/temp.png"
 import logo from "../assets/images/logo.png"
+import nextLogo from "../assets/images/nextjs.svg"
 
 
 const icons = [<AiFillMail />, <AiFillLinkedin />, <AiFillGithub />];
@@ -51,6 +52,7 @@ export const info = {
   firebase : firebaseLogo,
   git : gitLogo,
   figma : figmaLogo,
+  nextjs : nextLogo,
   template : template,
   logo : logo,
 };
